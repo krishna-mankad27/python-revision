@@ -7,10 +7,15 @@ age = 44
 price = 599.99
 #boolean
 is_indian = True
+is_balik = False
 print(f"hey {name} \nyou are {age} years old \nyour email is {email} \nthe gold passs in coc costs ${price}")
 #if statement 
 if is_indian:
-    print("you are a indian")
+    if is_balik:
+
+        print("you are an underage indian ")
+    else:
+        print("you are an adult indian")
 else:
     print("you are not a indian")
-    
+
